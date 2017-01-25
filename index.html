@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Documento creado por Andrea González Pérez, el 23/01/2017 como ejercicio de prueba de Evaluación Parcial de la Unidad Formativa del Módulo Formativo MF0950_2. -->
+	<meta charset="UTF-8">
+	<meta name="author" content="Andrea Gonzále Pérez">
+	<meta name="description" content="Prueba de Evaluacion Parcial de la Unidad Formativa">
+	<meta name="keywords" content="prueba, contenido, evaluacion">
+	<meta name="editor" content="Sublime Text">	
+	<script>
+		// alert("Su navegador no soporta JavaScript");
+	</script>
+	<script src="js/codigo.js"></script>
+	<title>Prueba de Evaluación Parcial</title>
+</head>
+<body>
+   <!-- Esto es un encabezado. -->
+    <header id="cabecera">
+    <!-- Esto es un logo de html5 que te lleva siempre a la página principal -->
+    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+
+    </header>
+<!-- Esto es un menú,que lleva a diferentes partes de la página. -->
+      <a href="index.html"><img src="images/home.png" alt="Home"></a><a href="#nosotros"><img src="images/nosotros.png" alt="Home"></a><a href="#nuestrotrabajo"><img src="images/nuestro trabajo.png" alt="Home"></a>
+
+      <h2>Varios parrafos</h2><p><a href="#cabecera">Ir a la cabecera</a></p><p><a href="#pie">Ir al pie de página.</a></p>
+
+   <!-- Esto son varios parrafos con contenido de Lorem ipsum. -->
+          <p id="textolatin"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong><!--Etiqueta de negrita--> Eius itaque eligendi nam consectetur repellat odit asperiores accusamus, beatae, reiciendis dolor quas <i>eveniet excepturi sit aliquid mollitia</i><!--Etiqueta cursiva--> autem animi fugit, ut?</p>
+
+          <aside>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos magni qui tempora, 
+          <sub>ex minima eaque consequatur nostrum iusto corporis nisi quibusdam atque, eum impedit. Quas possimus facilis tempora quos nesciunt.</sub><!--Esto es unsubindice--></p>
+          </aside>
+
+          <p><sup>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</sup><!--Esto es un superindice--> Nulla deserunt nemo ipsam, ipsum nisi incidunt vel quia amet nobis consequatur voluptates nostrum totam soluta cupiditate tenetur blanditiis hic laborum neque?</p>
+
+      <h1>Listas</h1>
+
+ <!-- Esto es una lista rdenada empezando por el primero y en números romanos.        -->
+      <h2>Lista ordenada</h2>
+      <ol start="1" type="I">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+      </ol>
+
+<!-- Esto es una lista desrdenada. -->
+      <h2>Lista desordenada</h2>
+      <nav>
+          <ul>
+    	       <li>HTML</li>
+    	       <li>CSS</li>
+    	       <li>JavaScript</li>
+          </ul>
+      </nav>
+
+ <!-- Esto es una tabla simple con 3 columnas, 3 filas y 6 celdas.        -->
+      <h2>Tabla simple</h2>
+          <table border="4px">
+              <caption>Tabla</caption>
+              <tr>
+            	   <td>Celda 1</td>
+            	   <td>Celda 2</td>
+            	   <td>Celda 3</td>
+              </tr>
+              <tr>
+            	   <td>Celda 4</td>
+            	   <td>Celda 5</td>
+            	   <td>Celda 6</td>
+              </tr>
+          </table>
+
+<!-- Esto es un enlace al texto en latin que hay mas arriba. -->
+        <h2>Enlace interno</h2>
+            <p><a href="#textolatin">Ir al texto en latín.</a></p>
+
+<!-- Algunos metodos de contacto personales -->
+        <h2 id="nosotros">Contacto</h2>
+            <p><a href="mailto:andreagonzalez1995@hotmail.com"><img src="images/email.png" alt="Email"> Email </a></p>
+            <p><a href="https://es.linkedin.com/in/andrea-gonz%C3%A1lez-p%C3%A9rez-731413135"><img src="images/linkedin.png" alt="LInkedin"> LinkedIn </a></p>
+            <p><a href="https://www.facebook.com/andrea.gonzalez.95"><img src="images/facebook.png" alt="Facebook">Facebook</a></p>
+            <a href="#cabecera">Cabecera</a> | <a href="#pie">Pie de página.</a>
+
+<!-- Esto son tres imagenes de tres paisajes diferentes. -->
+        <h2>Imagenes</h2>
+            <img src="images/landscape1.jpg" alt="Paisaje de campo." width="300" height="225">
+            <img src="images/landscape2.jpg" alt="Paisaje de unos viñedos." width="300" height="225">
+            <img src="images/landscape3.jpg" alt="Paisaje de unas campas con hierva." width="300" height="225">
+
+<!-- Esto es un mapa con areas activas, las areas activas son "Seres vivos", "Por su número de patas" y "Miriápodos". -->
+        <section>
+        <h2 id="nuestrotrabajo">Mapa con áreas activas.</h2>
+            <img src="images/mapa.png" width="767" height="450" alt="Mapa" usemap="#mapa">
+	       <map name="mapa">
+	           <area shape="poly" coords="454,68,453,33,307,31,307,68" href="vivos.html" alt="Seres vivos" target="blank">
+	           <area shape="poly" coords="504,147,505,100,256,98,260,145" href="patas.html" alt="Por su numero de patas" target="blank">
+	           <area shape="poly" coords="137,248,139,193,9,191,15,246" href="miri.html" alt="Miriapodos" target="blank">
+	       </map>
+        </section><a href="#cabecera">Cabecera</a> | <a href="#pie">Pie de página.</a>
+
+<!-- Esto es un audio con autoplay, en mp3 y ogg. -->
+        <h2>Audio</h2>
+        <audio controls>
+		      <source src="../multimedia/soaring_spirit.ogg">
+		      <source src="../multimedia/soaring_spirit.mp3">
+		        <param name="audio" value="../multimedia/soaring_spirit.mp3">
+		        <embed src="multimedia/soaring_spirit.mp3" type="audio/mp3" autostart="false" loop="false" controller="true">
+		       
+		<!-- <p>Su navegador no puede reproducir este audio, actualicelo o cambie a otro. (Chrome, Firefox, por ejemplo)</p> -->
+	      </audio>
+
+<!-- Esto es un video en varios formatos (mp4 y ogv) -->
+	     <h2>Video</h2>
+	         <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+                  poster="images/gato.jpg" data-setup="{}">
+                 <source src="../multimedia/developer_stories.mp4" type='video/mp4'>
+                 <source src="../multimedia/developer_stories.ogv" type='video/ogv'>
+                 <p class="vjs-no-js">
+                 Para ver este video habilite javascript.
+                <a href="http://videojs.com/html5-video-support/" target="_blank">Video soportado por HTML5</a>
+               </p>
+             </video>
+
+<!-- Esto es un PDF descargable. -->
+       <h2>Enlace descargable.</h2>
+            <p><a href="../multimedia/documento.pdf" download>Descargar PDF</a></p>
+
+<!-- Esto es un inframe con un mapa de google maps, con la direccion de P&S Global Miranda. -->
+        <h2>Mapa</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.3800864580517!2d-2.918267289743781!3d42.69567212945422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4f904216dba469%3A0xbdbe69d04cbddb88!2sP%26S+Global+Miranda%2C+S.L.!5e0!3m2!1ses!2ses!4v1485173193339" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<!-- Esto es un javascript. -->
+        <h2>JavaScript</h2>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum natus aliquam sit, iure reiciendis doloremque autem dicta nam! Totam ullam voluptas rem deserunt aut molestiae odio blanditiis ab architecto!</p>
+		      <noscript>
+			    <p>El navegador que usted está utilizando no tiene habilitada la ejecución de código JavaScript.</p>
+		      </noscript>
+
+<!-- Esto es un pie de página. -->
+	      <h3>Pie de página</h3>
+	      <footer id="pie">
+	        <a href="#cabecera">Cabecera</a> | <a href="#textolatin">Texto en latín</a>
+		      <p>Todos los derechos reservados &copy;  Andrea González Perez, 2017.</p>
+	      </footer>
+	<!-- El Documento funciona perfectamente en Google Chrome; en Mozilla Firefox funciona perfectamente; en Opera funciona perfectamente; en Safari el audio presenta problemas y el video te pide que habilites javascript. -->
+	
+	<!-- Se han añadido las mayores decripciones y alt posibles para favorecer la accesibilidad, cada apartado tiene su propio titulo descriptivo de lo que viene a continuacion. -->
+  </body>
+</html>
